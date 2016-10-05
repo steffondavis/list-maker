@@ -1,0 +1,25 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="list-maker.css">
+</head>
+
+<body>
+
+    <div id="sample-item" data-contentid="1" data-contentname="Edison Lightbulb" data-contentthumbnailurl="http://url.jpg">
+        <img src="object.jpg" />
+    </div>
+    
+    <div id="curabutton"></div>
+        
+    <script>
+    (function() {
+        //Load the JS asynchronously
+        var d = document, s = d.createElement('script');
+        s.src = 'list-maker.js';
+        s.type = 'text/javascript';
+        s.async = true;
+        (d.head || d.body).appendChild(s);
+        }
+    )();
+    </script>
+    
+</body>
